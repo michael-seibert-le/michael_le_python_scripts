@@ -2,20 +2,20 @@ le_disable_specific_tag_by_tagID.py
 -------------------
 -------------------
 
-# THIS SCRIPT WILL:
-# 1. DIASBLE YOUR TAG / ALERT BY REFERRING TO THE CORRECT TAG / ALERT ID IN LINE 22 OF THIS SCRIPT
+THIS SCRIPT WILL:
+ 1. DIASBLE YOUR TAG / ALERT BY REFERRING TO THE CORRECT TAG / ALERT ID IN LINE 22 OF THIS SCRIPT
 
-# 2. TO RETRIEVE YOUR TAG ID YOU CAN FIND IT IN YOUR DEVELOPER CONSOLE OF YOUR BROWSER
- #    CLICK ON THE ENABLE / DISABLE BUTTON OF TAG - FROM YOUR WEB UI
- #    AND LOOK UNDER THE NETWORK TAB FOR THE SECOND OCCURRENCE OF 'actions  /api/v2'
+ 2. TO RETRIEVE YOUR TAG ID YOU CAN FIND IT IN YOUR DEVELOPER CONSOLE OF YOUR BROWSER
+    CLICK ON THE ENABLE / DISABLE BUTTON OF TAG - FROM YOUR WEB UI
+    AND LOOK UNDER THE NETWORK TAB FOR THE SECOND OCCURRENCE OF 'actions  /api/v2'
  		actions
  		/api/v2
  	The id you need is UNDER 'id":"xxxxxxxx-xxxx-xxxx-xxxxxxxxxxxx" at the beginning of this JSON object
  
-#3.  COPY AND PASTE THIS ID INTO YOUR CODE ON LINE 22 INSIDE THE QUOTATION MARKS.
+3.  COPY AND PASTE THIS ID INTO YOUR CODE ON LINE 22 INSIDE THE QUOTATION MARKS.
 
-# REQUIREMENT - you must have your Logentries Account_Key and have the Tag Alert ID inserted in your script on line 22 as shown below
-#line 22 - if action['type'] != 'tagit' and action['id'] == 'YOUR_TAG_ALERT_ID_GOES_HERE':
+REQUIREMENT(S) - You must have your Logentries Account_Key and have the Tag Alert ID inserted in your script on line 22 as shown below
+line 22 - if action['type'] != 'tagit' and action['id'] == 'YOUR_TAG_ALERT_ID_GOES_HERE':
 
 
 Usage:
