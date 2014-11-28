@@ -9,7 +9,7 @@ le_create_log_under_chosen_host.py
  4. IT CREATES A LOG NAME UNDER YOUR SELECTED HOST
 
 
-# REQUIREMENT - you must have your Logentries Account_Key and have at least one host in your account.
+REQUIREMENT(S) - you must have your Logentries Account_Key and have at least one host in your account.
 
 
 Usage:
