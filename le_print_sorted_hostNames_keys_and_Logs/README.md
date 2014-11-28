@@ -2,15 +2,15 @@ le_print_sorted_hostNames_keys_and_Logs.py
 -------------------
 -------------------
 
-# THIS SCRIPT WILL:
-# 1. LISTS ALL OF YOUR HOST NAMES & HOST KEYS FOR AN ACCOUNT 
-# (Host Names are in alphabetical order)
+THIS SCRIPT WILL:
+ 1. LISTS ALL OF YOUR HOST NAMES & HOST KEYS FOR AN ACCOUNT 
+ (Host Names are in alphabetical order)
 
-# 2. UNDERNEATH EACH HOST, THE LOGS FOR THAT HOST WILL BE LISTED (In no order)
-#    LOG DETAILS INCLUDE: TOKEN-BASED OR AGENT-BASED, LOG NAME, LOG TOKEN AND LOGKEY
+ 2. UNDERNEATH EACH HOST, THE LOGS FOR THAT HOST WILL BE LISTED (In no order)
+    LOG DETAILS INCLUDE: TOKEN-BASED OR AGENT-BASED, LOG NAME, LOG TOKEN AND LOGKEY
 
 
-# REQUIREMENT - you must have your Logentries Account_Key and have at least one host in your account.
+REQUIREMENT(S) - You must have your Logentries Account_Key and have at least one host in your account.
 
 Usage:
 -----
